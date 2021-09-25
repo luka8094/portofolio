@@ -4,6 +4,7 @@
     latest update: 25-09-2021
 */
 
+/*
 @import url(//db.onlinewebfonts.com/c/c2f4f55862e336305d64d5e3e2e19d0d?family=Sans+Serif+Shaded);
 
 @font-face {font-family: "Sans Serif Shaded"; 
@@ -12,7 +13,9 @@
     url("//db.onlinewebfonts.com/t/c2f4f55862e336305d64d5e3e2e19d0d.woff2") format("woff2"), 
     url("//db.onlinewebfonts.com/t/c2f4f55862e336305d64d5e3e2e19d0d.woff") format("woff"), 
     url("//db.onlinewebfonts.com/t/c2f4f55862e336305d64d5e3e2e19d0d.ttf") format("truetype"), 
-    url("//db.onlinewebfonts.com/t/c2f4f55862e336305d64d5e3e2e19d0d.svg#Sans Serif Shaded") format("svg"); }
+    url("//db.onlinewebfonts.com/t/c2f4f55862e336305d64d5e3e2e19d0d.svg#Sans Serif Shaded") format("svg"); 
+}
+*/
 
 *{
     margin: 0;
@@ -22,15 +25,17 @@
 
 .splash{
     display: flex;
-    background-color: aqua;
+    background-color: rgb(43, 243, 126);
     height: 100vh;
     width: 100%;
 }
 
 .splash-inner-text > p{
     display: flex;
-    width: 100%;
+    height: 50vh;
+    width: 80%;
     font-family: "Sans Serif Shaded", sans-serif;
     color: grey;
     font-size: 3em;
+    align-self: center;
 }
