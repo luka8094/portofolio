@@ -1,0 +1,17 @@
+/*  title: 'KEA studentjob application Gitbook mini website portofolio'
+    author: luka8094
+    version: 2.0
+    latest update: 25-09-2021
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.splash{
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+}
