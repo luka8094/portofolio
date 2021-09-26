@@ -1,7 +1,7 @@
 /* mobile and desktop scaling */
 /* priority: 1. mobile -> 2. desktop*/
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 787px){
     
     .splash{
         display: flex;
@@ -9,13 +9,16 @@
         background-image: linear-gradient(65deg, rgb(0, 255, 221), rgb(107, 214, 130));
         height: 100vh;
         width: 100%;
+        margin-top: auto;
     }
 
     .splash-inner-text{
+        background-color: rgba(255,55,200,0.1);
         display: flex;
         flex-direction: column;
-        height: 80vh;
+        height: 50vh;
         width: 100%;
+        margin-top: auto;
     }
     
     .splash-inner-text > p{
@@ -23,16 +26,22 @@
         flex-direction: column;
         font-family: "Sans Serif Shaded", sans-serif;
         color: grey;
-        font-size: 5em;
+        font-size: 7em;
+        background: rgba(255,255,255,0.3);
     }
 
     .splash-inner-text > p:nth-child(1){
-        margin-top: auto;
+        margin: auto auto 0 0;
+        display: flex;
+        height: 1em;
+        background: rgba(255,255,255,0.2);
     }
 
     .splash-inner-text > p:nth-child(2),
     .splash-inner-text > p:nth-child(3){
         display: flex;
+        height: 2.2em;
+        margin-right: auto;
         flex-direction: column;
         font-family: "Sans Serif Shaded", sans-serif;
         color: grey;
@@ -41,6 +50,30 @@
 
     .splash-inner-text > p:nth-child(3){
         margin-bottom: auto;
+        height: 2em;
+    }
+    
+    .credentials{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(00,210,220,0.1);
+
     }
 
+    .projects{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(150,120,220,0.1);
+
+    }
+
+    .contact{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(50,170,20,0.5);
+
+    }
 }
