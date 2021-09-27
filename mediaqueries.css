@@ -16,9 +16,10 @@
         background-color: rgba(255,55,200,0.1);
         display: flex;
         flex-direction: column;
-        height: 50vh;
+        height: 100vh;
         width: 100%;
         margin-top: auto;
+        clip-path: polygon(100% 0, 10% 100%, 100% 100%)
     }
     
     .splash-inner-text > p{
@@ -51,6 +52,14 @@
     .splash-inner-text > p:nth-child(3){
         margin-bottom: auto;
         height: 2em;
+    }
+
+    .intro{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        background-color: rgba(134, 116, 154, 0.16);
+
     }
     
     .credentials{
